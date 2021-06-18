@@ -1,3 +1,12 @@
+body {
+  margin: 67px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 #blog-title {
   font-size: x-large;
   font-family: cursive;
@@ -10,4 +19,99 @@
 header {
   display: flex;
   justify-content: space-between;
+  border-bottom: 5px black solid;
+}
+
+.border {
+  background-image: url(../img/hr-img.png);
+  background-repeat: repeat;
+}
+
+h1 {
+  font-size:xx-large;
+  font-weight: bold;
+}
+
+.title-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.print {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-end;
+}
+
+.blog-post p{
+  text-indent: 25px;
+  line-height: 1.4em;
+  margin-top: 15px;
+  color:rgb(117, 117, 117);
+  font-size: larger;
+}
+
+.recipe {
+  margin-top: 15px;
+  background-image: url(../img/list-bg.png);
+  display: flex; 
+  justify-content: space-evenly;
+  padding: 40px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+ul {
+  display: flex;
+  /* padding: 25px; */
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style: square outside none;
+  padding: 10px;
+  color:rgb(117, 117, 117);
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.author-bio {
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#author-name {
+  font-size: x-large;
+}
+
+#author-about {
+  font-size: larger;
+  color:rgb(117, 117, 117);
+}
+
+button {
+  background-color: rgb(189, 108, 71);
+  color: white;
+  border: 0px;
+  width: 200px;
+  height: 50px;
+  font-size: large;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+hr {
+  width: 375px;
 }
