@@ -1,0 +1,13 @@
+#blog-title {
+  font-size: x-large;
+  font-family: cursive;
+}
+
+#blog-title-tag {
+  font-size: large;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
